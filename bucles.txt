@@ -1,0 +1,18 @@
+El bucle "for" en Java Script es un bucle determinado o lo que es lo mismo con for vamos a saber cuantas veces el programa va a ejecutar el bucle solo viendo el codigo, en el ejemplo :
+var names =["Carlos","Alfredo","manuel"] 
+for(var i =0 ; i < names.length ;  i++){
+console.log(names[i]
+}
+la estructura for es condicion + instruccion , en el caso anterio le dije que hay un indice cuyo valor es 0 , si ese indice es menor a 3 que es la longitud de los nombres ejecuta la instruccion que hay entr3 {} que es la de mostrar un mensaje por consola donde se muestre ese indice y por ultimo se le sume 1 a la variable i que su valor inicial es 0.
+El bucle "while"
+es un bucle indeterminado osea hasta no ejecutar ese codigo no voy a saber cuantas veces se repite el bucle. En este caso tendra la estrutura de while+condicion+{la instruccion por console log+el fin del bucle --}
+ej:
+ var count 0 50;
+while(count >= 0){
+console.log("count");
+count = count --
+}
+partiendo de la variable count=50 , mientra count sea igual o mayor que 0, se ejcute la condicion de mostrar por consola toda la variable "count" y al resultado le restaremos 1 mediante -- quedando en 49 y repitiendo el bucle hasta llegar a 0
+
+por ultimo el bucle "do while" sabemos que al menos el bucle se va ejecutar al menos una vez pase lo que pase y dependiendo de la condicion se va a ejecutar mas veces o no
+
